@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Store</title>
+    <link rel="stylesheet" href="style/storeStyle.css" />
+    <link rel="shortcut icon" href="/images/857455.png" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="left-section">
+          <img src="/images/857455.png" id="logo" alt="" />
+          <span id="title">SportStore</span>
+          <input
+            type="text"
+            id="search"
+            placeholder="type the product name here..."
+            maxlength="30"
+          />
+        </div>
+        <div class="right-section">
+          <a class="header-links" href="#">Home</a>
+          <a class="header-links" href="heydarian/index.html">About</a>
+          <a class="header-links" href="heydarian/social.html">Social</a>
+          <a class="header-links" href="heydarian/contact.html">Contact</a>
+        </div>
+      </header>
+
+      <main>
+        <h1 class="title-main">Products</h1>
+        <div class="product-container">
+          <div class="products"></div>
+        </div>
+      </main>
+
+      <div class="product-bassket-container">
+        <div class="basket">
+          <div class="info">
+            <h2 id="shopinfo">Shop Info</h2>
+          </div>
+          <div class="product-basket"></div>
+        </div>
+        <div class="buybtncontainer">
+          <button id="buybtn">Buy</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="javaScripts/storeApp.js"></script>
+  </body>
+</html>
